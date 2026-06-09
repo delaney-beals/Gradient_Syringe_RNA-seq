@@ -1,4 +1,4 @@
-# Gradient Syringe RNA-seq Analysis
+# Gradient syringe RNA-seq analysis
 
 Analysis scripts associated with:
 
@@ -6,9 +6,17 @@ Analysis scripts associated with:
 
 This repository contains example R scripts used for visualization and exploratory analysis of differential gene expression data from gradient syringe RNA-seq experiments.
 
-The complete RNA-seq dataset is available through NCBI GEO:
+The complete RNA-seq dataset is available through NCBI GEO accession: GSE243827. 
 
-- GEO accession: GSE243827
+## Scientific Background
+
+Aerobic methanotrophs naturally inhabit environments containing opposing gradients of methane and oxygen. To better replicate this spatial structure in the laboratory, we developed a simple "gradient syringe" model ecosystem that establishes a methane–oxygen counter gradient.
+
+When grown in this system, methanotrophs formed distinct horizontal bands at the intersection of the gradients. We hypothesized that cells occupying different positions within the syringe experienced different environmental conditions and therefore exhibited distinct physiological states.
+
+To investigate these spatially resolved responses, RNA was collected from regions above the band, within the band, and below the band. Transcriptomic analysis was used to identify genes and pathways associated with growth within the gradient environment and to link observed phenotypes with their underlying genetic determinants.
+
+The analyses in this repository focus primarily on visualization of differential gene expression results, including heatmaps and volcano plots used to compare transcriptional responses across syringe regions.
 
 ## Repository Contents
 
